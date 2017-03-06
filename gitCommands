@@ -1,4 +1,8 @@
-git init 	//new git repo
-git status 	//SHow current repo status
-git add <file>	//Start to follow this file
+git init 		//new git repo
+git status 		//SHow current repo status
+git add <file>		//Start to follow this file
+git commit -m "comment"	//Save changes to repo
+git config --global user.name "oma nimi" //Muuta käyttäjänimi
+git config --global user.email "sähköpostiosoita" //Muuta sähköpostiosoite
+
 
