@@ -1,0 +1,4 @@
+git init 	//new git repo
+git status 	//SHow current repo status
+git add <file>	//Start to follow this file
+
