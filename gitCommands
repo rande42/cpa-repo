@@ -1,8 +1,18 @@
-git init 		//new git repo
-git status 		//SHow current repo status
-git add <file>		//Start to follow this file
-git commit -m "comment"	//Save changes to repo
-git config --global user.name "oma nimi" //Muuta käyttäjänimi
-git config --global user.email "sähköpostiosoita" //Muuta sähköpostiosoite
+git init 					//new git repo
+git status 					//SHow current repo status
+git add <file>					//Start to follow this file
+git commit -m "comment"				//Save changes to repo
+git config --global user.name "oma nimi" 	//Muuta käyttäjänimi
+git config --global user.email "sähköposti" 	//Muuta sähköpostiosoite
+
+git log						//Shows made shanges in repo
+
+git push -u origin master 			//save changes to github with -o remembers branch
+git remote add origin <github repo address>	//Set remote github repo
+
+git pull origin master				//load branch to local repo
+git diff HEAD					//shows differences between versions
+
+
 
 
